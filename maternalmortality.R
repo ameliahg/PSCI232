@@ -1,19 +1,14 @@
-# maternalmortality.R
-# script to visualize maternal mortality data
-# note to self: install.packages needs quotation marks
-# library doesn't.
+library(tidyverse)
+library(ggplot2)
 
-library(readxl)
-library(dplyr)
+oecd2017 <- c('United States','United Kingdom','Turkey',
+          'Switzerland','Sweden','Spain','Slovenia',
+          'Slovak Republic','Portugal','Poland','Norway',
+          'New Zealand','Netherlands','Mexico','Luxembourg',
+          'Latvia','Korea','Japan','Italy',
+          'Israel','Ireland','Iceland','Hungary','Greece',
+          'Germany','France','Finland','Estonia','Denmark',
+          'Czech Republic','Chile','Canada','Belgium','Austria','Australia')
 
-mm <- read_xlsx('maternal-mortality-ratio-sdgs.xlsx') %>%
-  filter(Year==2017, MMR_per100k>=500, !is.na(Code)) %>%
-  arrange(-MMR_per100k)
-
-p <- ggplot(data=mm, aes(y=Entity, x=MMR_per100k)) + geom_point()
-
-
-
-
-
+mm <- read_csv('https://raw.githubusercontent.com/ameliahg/PSCI232/main/maternal_mortality_edited.csv')
 
