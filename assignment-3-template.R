@@ -35,8 +35,30 @@ print(median(cnty$white_black_income_ratio,na.rm=TRUE))
 print("Standard deviation white to black income proportion, US counties:")
 print(sd(cnty$white_black_income_ratio,na.rm=TRUE))
 
+# find your home county
+home <- filter(cnty, # if you're giving the dataset a new name you need to specify the old one in the statement, like this
+               state=='ND',
+               county=='Grand Forks County') %>%
+  select(state, county, white_black_income_ratio)
+
+print("The subset for my home county")
+print(home)
+
 # OK NOW YOU
 # you can copy-paste my template from above (lines 16-36)
 # to make your own histograms and print your own results,
 # but you may not use the same variable i did! 
 # don't forget to comment on where your home county falls.
+
+# Below here is optional but might be fun ("fun")
+# I'm going to add a vertical line to show where Grand Forks County is in the distribution
+# See if you can figure out what I'm doing
+
+h2 <- ggplot() +
+  geom_histogram(data=cnty,aes(x=white_black_income_ratio),
+                 fill='purple',color='purple') +
+  geom_vline(data=home,aes(xintercept=white_black_income_ratio),
+             color='yellow') +
+  labs(x='Proportion of Black to white median household income',
+       caption='Grand Forks County, ND, shown in yellow.')
+ggsave('grandforks.pdf',width=6,height=3)
