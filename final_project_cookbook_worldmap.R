@@ -1,9 +1,7 @@
-# final_project_cookbook_countrynames.R
+# final_project_cookbook_worldmap.R
 # shows how to translate country names from one dataset to another
-# in this example, the sk data has country names under the variable "nation"
-# and they're in IOC three-letter format
-# but the map data has country names in an unknown format under the variable "region"
-# how do we get them to merge correctly?
+# and merge country data into map data
+# and make a map
 
 library(tidyverse)
 library(countrycode)
