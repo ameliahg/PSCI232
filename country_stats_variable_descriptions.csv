@@ -1,0 +1,248 @@
+Variable name,Description,Source,Number missing in static data,% missing in static data,In static data,Number missing in over-time data,% missing in over-time data,In over-time data
+country,"Country name, uses 'country.name.en"" from package countrycode",ID variable,0,0,1,0,0,1
+year,Year (includes 1960-2020),ID variable,0,0,1,0,0,1
+agricultural_land,Total agricultural land,OWID,30,0.13,1,1555,0.16,1
+co2_emissions,Total CO2 emissions,OWID,32,0.13,1,810,0.09,1
+arable_land,Total arable land,OWID,44,0.18,1,1983,0.21,1
+total_sch_adult,"Total schooling, adults",OWID,57,0.24,1,4451,0.47,1
+conf_terr_deaths,Deaths from conflict and terrorism,OWID,69,0.29,1,3466,0.36,1
+dtp_vax_pct,Percent of 3yo's vaccinated for DTP,OWID,57,0.24,1,2474,0.26,1
+fertility,Children per woman,OWID,50,0.21,1,1408,0.15,1
+hdi_undp,Human Development Index per UN Development Program,OWID,61,0.26,1,4589,0.48,1
+humanrights_fariss,Human rights score from Fariss & Schnakenburg (sp?),OWID,57,0.24,1,2648,0.28,1
+cell_subscribers_per100,Cell phone subscribers per,OWID,37,0.16,1,1590,0.17,1
+childmort_,Child mortality (World Bank data),OWID,57,0.24,1,1947,0.2,1
+gdppc_output_pwt,"GDP per capita, output",OWID,66,0.28,1,2899,0.3,1
+pop_est,Estimated population,OWID,15,0.06,1,15,0,1
+pop_total,Total population (World Bank),OWID,35,0.15,1,815,0.09,1
+agricultural_employment,Total agricultural employment,OWID,63,0.26,1,4156,0.44,1
+tax_rev_pct_gdp_total,"Tax revenue as percent of GDP, alt measure",OWID,59,0.25,1,3819,0.4,1
+tax_rev_pct_gdp,Tax revenue as percent of GDP,OWID,60,0.25,1,4339,0.46,1
+urbanization,Urbanization (not sure the metric),OWID,36,0.15,1,843,0.09,1
+area_sqmi,Country's area in square miles,?,58,0.24,1,1736,0.18,1
+ever_colonized,Ever colonized by any country,COLDAT dataset,0,0,1,1736,0.18,1
+ncolonizers,Total number of colonizers,COLDAT dataset,0,0,1,1736,0.18,1
+col1start,First year of colonization by this colonizer,COLDAT dataset,0,0,1,4360,0.46,1
+col1end,Final year of colonization by this colonizer,COLDAT dataset,0,0,1,4360,0.46,1
+col1length,Total years of colonization by this colonizer,COLDAT dataset,0,0,1,4360,0.46,1
+totalyrs_colonized,Total years colonized by any colonizer,COLDAT dataset,0,0,1,4360,0.46,1
+modern_sovereignty_current_name,Year country became sovereign,COLDAT dataset,59,0.25,1,1777,0.19,1
+state_age,How long has this state had sovereignty?,COLDAT dataset,58,0.24,1,1736,0.18,1
+fmr_soviet,Former Soviet republic,COLDAT dataset,58,0.24,1,1736,0.18,1
+col.belgium,Was ever colonized by indicated country,COLDAT dataset,0,0,1,1736,0.18,1
+col.britain,Was ever colonized by indicated country,COLDAT dataset,0,0,1,1736,0.18,1
+col.france,Was ever colonized by indicated country,COLDAT dataset,0,0,1,1736,0.18,1
+col.germany,Was ever colonized by indicated country,COLDAT dataset,0,0,1,1736,0.18,1
+col.italy,Was ever colonized by indicated country,COLDAT dataset,0,0,1,1736,0.18,1
+col.netherlands,Was ever colonized by indicated country,COLDAT dataset,0,0,1,1736,0.18,1
+col.portugal,Was ever colonized by indicated country,COLDAT dataset,0,0,1,1736,0.18,1
+col.spain,Was ever colonized by indicated country,COLDAT dataset,0,0,1,1736,0.18,1
+fertilit,Children per woman,World Bank,44,0.18,1,2541,0.27,1
+value,Ignore,?,56,0.24,1,1846,0.19,1
+gdppc_wb2005,"GDP per capita, World Bank definition, 2005 dollars",James et al.,41,0.17,1,2092,0.22,1
+gdppc_imf2005,"GDP per capita (International Monetary Fund definition, 2005 dollars)",James et al.,41,0.17,1,2092,0.22,1
+populati,"Total population (World Bank), alt measure",World Bank,35,0.15,1,1479,0.16,1
+cow_code_n,Country code from Correlates of War project,Correlates of War,57,0.24,1,2459,0.26,1
+un_code_n,UN country code,United Nations,56,0.24,1,2422,0.25,1
+pts_a,Political Terror Scale,Political Terror Scale,68,0.29,1,4621,0.49,1
+pts_s,Political Terror Scale,Political Terror Scale,55,0.23,1,3386,0.36,1
+na_status_a,Ignore,Political Terror Scale,53,0.22,1,2311,0.24,1
+na_status_h,Ignore,Political Terror Scale,53,0.22,1,2311,0.24,1
+na_status_s,Ignore,Political Terror Scale,53,0.22,1,2311,0.24,1
+rugged,Ruggedness,Ruggedness/geogrpahy data,18,0.08,1,378,0.04,1
+rugged_popw,Ruggedness (alt measure),Ruggedness/geogrpahy data,18,0.08,1,378,0.04,1
+rugged_slope,Ruggedness (alt measure),Ruggedness/geogrpahy data,18,0.08,1,378,0.04,1
+rugged_lsd,Ruggedness (alt measure),Ruggedness/geogrpahy data,18,0.08,1,378,0.04,1
+rugged_pc,Ruggedness (alt measure),Ruggedness/geogrpahy data,18,0.08,1,378,0.04,1
+land_area,Total land area of country,Ruggedness/geogrpahy data,22,0.09,1,481,0.05,1
+lat,Latitude (mean),Ruggedness/geogrpahy data,18,0.08,1,378,0.04,1
+lon,Longitude (mean,Ruggedness/geogrpahy data,18,0.08,1,378,0.04,1
+soil,Soil quality indicator?,Ruggedness/geogrpahy data,27,0.11,1,486,0.05,1
+desert,Percent of land that is desert,Ruggedness/geogrpahy data,18,0.08,1,378,0.04,1
+tropical,Percent of land in tropical latitude,Ruggedness/geogrpahy data,18,0.08,1,378,0.04,1
+dist_coast,Distance from coast,Ruggedness/geogrpahy data,18,0.08,1,378,0.04,1
+near_coast,% of country near coastline,Ruggedness/geogrpahy data,18,0.08,1,378,0.04,1
+gemstones,Gemstone production total,Ruggedness/geogrpahy data,18,0.08,1,378,0.04,1
+q_rule_law,Rule of law,NA,53,0.22,1,1531,0.16,1
+cont_africa,Country is in indicated continent,NA,18,0.08,1,378,0.04,1
+cont_asia,Country is in indicated continent,NA,18,0.08,1,378,0.04,1
+cont_europe,Country is in indicated continent,NA,18,0.08,1,378,0.04,1
+cont_oceania,Country is in indicated continent,NA,18,0.08,1,378,0.04,1
+cont_north_america,Country is in indicated continent,NA,18,0.08,1,378,0.04,1
+cont_south_america,Country is in indicated continent,NA,18,0.08,1,378,0.04,1
+legor_gbr,Ignore,NA,40,0.17,1,1019,0.11,1
+legor_fra,Ignore,NA,40,0.17,1,1019,0.11,1
+legor_soc,Ignore,NA,40,0.17,1,1019,0.11,1
+legor_deu,Ignore,NA,40,0.17,1,1019,0.11,1
+legor_sca,Ignore,NA,40,0.17,1,1019,0.11,1
+colony_esp,Ever colonized by indicated country,NA,0,0,1,378,0.04,1
+colony_gbr,Ever colonized by indicated country,NA,0,0,1,378,0.04,1
+colony_fra,Ever colonized by indicated country,NA,0,0,1,378,0.04,1
+colony_prt,Ever colonized by indicated country,NA,0,0,1,378,0.04,1
+colony_oeu,Ever colonized by indicated country,NA,0,0,1,378,0.04,1
+africa_region_n,Region of Africa,NA,18,0.08,1,378,0.04,1
+africa_region_s,Region of Africa,NA,18,0.08,1,378,0.04,1
+africa_region_w,Region of Africa,NA,18,0.08,1,378,0.04,1
+africa_region_e,Region of Africa,NA,18,0.08,1,378,0.04,1
+africa_region_c,Region of Africa,NA,18,0.08,1,378,0.04,1
+slave_exports,"Slave exports, historical",NA,18,0.08,1,378,0.04,1
+pop_1400,"Estimated population, 1400",NA,51,0.21,1,1470,0.15,1
+urban_pop_pct,Percent of population in urban areas,World Bank,36,0.15,1,1285,0.13,1
+urban_pop_growth,Urban population growth,World Bank,36,0.15,1,1309,0.14,1
+pop_growth,Population growth (World Bank),World Bank,35,0.15,1,1271,0.13,1
+under5mortality,"Under-5 mortality, all causes",World Bank,57,0.24,1,2343,0.25,1
+ag_forest_fish_pct_gdp,"Agriculture, forests, fisheries as pct of GDP",World Bank,47,0.2,1,3299,0.35,1
+no2_emissions_total,Total NO2 emissions,World Bank,44,0.18,1,2854,0.3,1
+methane_emissions_total,Total methane emissions,World Bank,45,0.19,1,2887,0.3,1
+greenhouse_emissions_total,Total Greenhouse emissions,World Bank,51,0.21,1,3423,0.36,1
+other_greenhouse_total,Total other greenhouse gas emissions (not methane NO2 or CO2),World Bank,53,0.22,1,3466,0.36,1
+co2_solidfuel_pct,CO2 emissions from solid fuels as pct of total CO2 emissions,World Bank,44,0.18,1,2939,0.31,1
+co2_solidfuel_total,"CO2 emissions from solid fuels, total",World Bank,44,0.18,1,2939,0.31,1
+co2_liquidfuel_pct,CO2 emissions from liquid fuel as pct of total CO2 emissions,World Bank,44,0.18,1,2939,0.31,1
+co2_liquidfuel_total,"CO2 emissions from liquid fuel, total",World Bank,44,0.18,1,2939,0.31,1
+fdi_inflows,Foreign direct investment inflows,World Bank,52,0.22,1,3132,0.33,1
+grain_yield,Grain yield (unsure if total or per capita),World Bank,70,0.29,1,3225,0.34,1
+co2_emissions_percap,CO2 emissions per capita,World Bank,44,0.18,1,2941,0.31,1
+co2_emissions_total,Total CO2 emissions,World Bank,44,0.18,1,2939,0.31,1
+co2_emissions_pergdp,CO2 emissions per $ of GDP,World Bank,54,0.23,1,3603,0.38,1
+co2_emissions_gas_pct,CO2 emissions from gas sources as pct of total CO2 emissions,World Bank,44,0.18,1,2939,0.31,1
+co2_emissions_gas_total,"CO2 emissions from gas sources , total",World Bank,44,0.18,1,2939,0.31,1
+pct_arable_land,Percent of land arable,World Bank,45,0.19,1,2426,0.25,1
+pct_agricultural_land,Percent of land in agricultural use,World Bank,43,0.18,1,2346,0.25,1
+agricultural_land_total,Total agricultural land,World Bank,41,0.17,1,2334,0.25,1
+childmort_ihme,NA,NA,55,0.23,1,7982,0.84,1
+docs_perk,NA,NA,44,0.18,1,5677,0.6,1
+gini_disp,NA,NA,58,0.24,1,4917,0.52,1
+gini_disp_se,NA,NA,58,0.24,1,4917,0.52,1
+gini_mkt,NA,NA,58,0.24,1,4918,0.52,1
+gini_mkt_se,NA,NA,58,0.24,1,4918,0.52,1
+primary_sch_completion,NA,NA,58,0.24,1,5649,0.59,1
+gender_parity_school,NA,NA,53,0.22,1,5185,0.54,1
+gdppc_ppp,"GDP per capita, PPP (purchasing power parity)",OWID,all,NA,0,3900,0.41,1
+gdppc_ppp_current,"GDP per capita, PPP (purchasing power parity) in 2020 dollars",OWID,all,NA,0,3832,0.4,1
+mil_spend_pct_gdp,Military spending as % of GDP,OWID,all,NA,0,4038,0.42,1
+mil_spend_total,Total military spending,OWID,all,NA,0,4493,0.47,1
+regime,Polity 2 score (-10 to 10),OWID,all,NA,0,3807,0.4,1
+cy,Country-year,ID variable,all,NA,0,0,0,1
+colonizer1,First colonizer,COLDAT dataset,all,NA,0,4360,0.46,1
+yrs_since_colonized,Years since this country was colonized (as of 2020),COLDAT dataset,all,NA,0,4360,0.46,1
+pct_pop_monopoly_grp,Percent of population in monopoly group,EPR (ethnic power relations) dataset,all,NA,0,3329,0.35,1
+pct_pop_powerless_grp,Percent of population in politically powerless group,EPR (ethnic power relations) dataset,all,NA,0,3329,0.35,1
+pct_pop_disc_grp,Percent of population in group that is discriminated against,EPR (ethnic power relations) dataset,all,NA,0,3329,0.35,1
+region,Region of the world,?,all,NA,0,2092,0.22,1
+elf,Ethnolinguistic fractionalization (likelihood that 2 randomly chosen citizens are same ethnicity),Maintaining Ethnic Dominance dataset,all,NA,0,4571,0.48,1
+polar,Ethnic polarization,Maintaining Ethnic Dominance dataset,all,NA,0,4571,0.48,1
+armcon,Arms control treaty,Maintaining Ethnic Dominance dataset,all,NA,0,4568,0.48,1
+intwar,International war ongoing,Maintaining Ethnic Dominance dataset,all,NA,0,4568,0.48,1
+onset_alt_zeros,Ignore,Pamp et al.,all,NA,0,4353,0.46,1
+onset_zeros,Ignore,Pamp et al.,all,NA,0,4353,0.46,1
+onset_last5y,Civil war onset in last 5 years,Pamp et al.,all,NA,0,4367,0.46,1
+imports,Value of imports,Pamp et al.,all,NA,0,4326,0.45,1
+logimports,Log imports,Pamp et al.,all,NA,0,4326,0.45,1
+logpop,Log population,Pamp et al.,all,NA,0,4643,0.49,1
+loggdppc,Log GDP per capita,Pamp et al.,all,NA,0,4643,0.49,1
+capacity,Government capacity,Pamp et al.,all,NA,0,4564,0.48,1
+redistr,Redistribution as % of GDP; negative numbers mean redist TO wealthy,Pamp et al.,all,NA,0,4694,0.49,1
+border_count,Number of countries bordering this country,Pamp et al.,all,NA,0,4477,0.47,1
+incidence,Ignore,?,all,NA,0,4353,0.46,1
+pop,Population,?,all,NA,0,4643,0.49,1
+gdppc,GDP per capita,NA,all,NA,0,4643,0.49,1
+gini_net,Gini (inequality) coefficient after taxes and transfers,SWIID,all,NA,0,4694,0.49,1
+gini_market,Gini (inequality) coefficient for market goods,SWIID,all,NA,0,4694,0.49,1
+country_old,Old country name,OWID,all,NA,0,2311,0.24,1
+cow_code_a,Country code from Correlates of War project,Correlates of War,all,NA,0,2459,0.26,1
+wordbank_code_a,World Bank country code,World Bank,all,NA,0,2385,0.25,1
+rgdppc_2000,Historical GDP per capita estimates,NA,all,NA,0,2556,0.27,1
+rgdppc_1950_m,Historical GDP per capita estimates,NA,all,NA,0,3950,0.41,1
+rgdppc_1975_m,Historical GDP per capita estimates,NA,all,NA,0,3950,0.41,1
+rgdppc_2000_m,Historical GDP per capita estimates,NA,all,NA,0,3089,0.32,1
+rgdppc_1950_2000_m,Historical GDP per capita estimates,NA,all,NA,0,3950,0.41,1
+european_descent,Proportion of population of European descent,NA,all,NA,0,2843,0.3,1
+basic_water_access,Percent of population with basic water access,NA,all,NA,0,4904,0.51,1
+basic_sanit_access,Percent of pop w basic sanitation access,NA,all,NA,0,4928,0.52,1
+improved_water_access,Percent of pop with improved water access,NA,all,NA,0,4904,0.51,1
+improved_sanit_access,Percent of pop w improved sanitation,NA,all,NA,0,4928,0.52,1
+limited_water_access,Percent of pop with limited water access,NA,all,NA,0,4904,0.51,1
+limited_sanit_access,Percent of population with limited sanitation access,NA,all,NA,0,4928,0.52,1
+safe_water_access,percent of population with access to safe water,NA,all,NA,0,6688,0.7,1
+unimproved_water_access,Percent of population with unimproved water access,NA,all,NA,0,4904,0.51,1
+unimproved_sanit_access,Percent of population with unimproved sanitation,NA,all,NA,0,4928,0.52,1
+fossil_fuels_twh,Terrawatt hours of energy from fossil fuels,NA,all,NA,0,6446,0.68,1
+humanrights_fsi,Human rights measure via Fragile States Index,NA,all,NA,0,7977,0.84,1
+gini,Gini (inequality) coefficient,NA,all,NA,0,5382,0.56,1
+gov_spend,Total government spending,NA,all,NA,0,5790,0.61,1
+no_water_access,Percent of population with no access to clean water,NA,all,NA,0,4985,0.52,1
+oil_reserves,Total proved oil reserves,NA,all,NA,0,7604,0.8,1
+oil_prod_total,Total oil production,NA,all,NA,0,6566,0.69,1
+oil_prod_percap,Oil production per capita,NA,all,NA,0,6566,0.69,1
+no_sanit_access,Percent of population with no access to sanitation (open defecation),NA,all,NA,0,4982,0.52,1
+forestco,Forest cover as percent of land,NA,all,NA,0,5020,0.53,1
+ciri,Cingranelli and Richards human rights measure,NA,all,NA,0,5279,0.55,1
+pts,Political Terror Scale,NA,all,NA,0,4826,0.51,1
+excl,Percent of pop in excluded group,NA,all,NA,0,5263,0.55,1
+lexcl,Lag percent of pop in excluded group,NA,all,NA,0,5136,0.54,1
+lnexcl,Log of percent pop in excluded group,NA,all,NA,0,5260,0.55,1
+exconst,?,NA,all,NA,0,4933,0.52,1
+lngdpcap,Log GDP per capita,NA,all,NA,0,4905,0.51,1
+lnpop,Log population,NA,all,NA,0,4914,0.52,1
+lnoilgas,Log oil and gas reserves,NA,all,NA,0,4725,0.5,1
+dissent,Government tolerates dissent?,NA,all,NA,0,4764,0.5,1
+civillib,Civil liberties?,NA,all,NA,0,5289,0.56,1
+settmort,Settler mortality measure,NA,all,NA,0,7547,0.79,1
+democ,Democracy score via Polity,NA,all,NA,0,5201,0.55,1
+xpol,?,NA,all,NA,0,4933,0.52,1
+youth,?,NA,all,NA,0,6502,0.68,1
+judind,Judicial independence?,NA,all,NA,0,5111,0.54,1
+autoc,Autocracy score via Polity,NA,all,NA,0,7323,0.77,1
+nbrs,Neighborhing countries,NA,all,NA,0,5210,0.55,1
+nnbrs,Number of neighboring countries,NA,all,NA,0,5210,0.55,1
+onset,Civil war onset this year,Pamp et al.,all,NA,0,5250,0.55,1
+onset_alt,Alternate civil war onset measure,Pamp et al.,all,NA,0,5238,0.55,1
+logmountain,Log of mountainous terrain,Pamp et al.,all,NA,0,4864,0.51,1
+logmilex,Log of military expenditure,Pamp et al.,all,NA,0,5014,0.53,1
+west,"Country in ""west""",Pamp et al.,all,NA,0,4864,0.51,1
+eastern_europe,Country in Eastern Europe,Pamp et al.,all,NA,0,4864,0.51,1
+latin_america,Country in Latin America,Pamp et al.,all,NA,0,4864,0.51,1
+subsaharan_africa,Country in Sub-Saharan Africa,Pamp et al.,all,NA,0,4864,0.51,1
+asia,Country in Asia,Pamp et al.,all,NA,0,4864,0.51,1
+milex,Military spending,Pamp et al.,all,NA,0,5014,0.53,1
+polity,Polity score,Pamp et al.,all,NA,0,5508,0.58,1
+polity2,Polity 2 score (-10 to 10),Pamp et al.,all,NA,0,5565,0.58,1
+parreg,Polity measure of political participation,Pamp et al.,all,NA,0,5508,0.58,1
+popdens,Population density,Pamp et al.,all,NA,0,4512,0.47,1
+dist_slavemkt_atlantic,Distance from slave markets on Atlantic coast,NA,all,NA,0,7230,0.76,1
+dist_slavemkt_indian,Distance from slave markets on Indian Ocian,NA,all,NA,0,7230,0.76,1
+dist_slavemkt_saharan,Distance from slave markets in Sahara,NA,all,NA,0,7230,0.76,1
+dist_slavemkt_redsea,Distance from slave markets on the Red Sea,NA,all,NA,0,7230,0.76,1
+v2x_polyarchy,V-Dem polyarchy (democracy),V-Dem,all,NA,0,5497,0.58,1
+v2x_libdem,V-Dem liberal democracy,V-Dem,all,NA,0,5512,0.58,1
+v2x_partipdem,V-Dem participatory democracy,V-Dem,all,NA,0,5498,0.58,1
+v2x_delibdem,V-Dem deliberative democracy,V-Dem,all,NA,0,5498,0.58,1
+v2x_egaldem,V-Dem egalitarian democracy,V-Dem,all,NA,0,5498,0.58,1
+v2pepwrsoc,Something from V-Dem?,V-Dem,all,NA,0,5475,0.57,1
+v2pepwrgen,Something from V-Dem?,V-Dem,all,NA,0,5475,0.57,1
+v2x_clphy,Something from V-Dem?,V-Dem,all,NA,0,5475,0.57,1
+v2x_genpp,Something from V-Dem?,V-Dem,all,NA,0,5531,0.58,1
+pop_in_largecities_pct,Percent of population in large cities,World Development Indicators,all,NA,0,4820,0.51,1
+no2_emissions_change,NO2 emissions change since 1990,World Development Indicators,all,NA,0,5060,0.53,1
+methane_emissions_change,Methane emissions change since 1990,World Development Indicators,all,NA,0,5082,0.53,1
+greenhouse_emissions_change,Greenhouse emissions change since 1990,World Development Indicators,all,NA,0,5605,0.59,1
+other_greenhouse_change,"Other greenhouse gas emissions, change since 1990",World Development Indicators,all,NA,0,5413,0.57,1
+co2_per_gdp,CO2 emissions per $ of GDP,World Development Indicators,all,NA,0,5039,0.53,1
+co2_per_gdp2,CO2 emissions per $ of GDP,World Development Indicators,all,NA,0,5039,0.53,1
+co2_intensity,Intensity of CO2 usage,World Development Indicators,all,NA,0,4936,0.52,1
+energy_use,Total energy use (TwH),World Development Indicators,all,NA,0,4763,0.5,1
+electricity_use,Total electricity use,World Development Indicators,all,NA,0,4934,0.52,1
+energy_use_pergdp,Energy use per $ GDP,World Development Indicators,all,NA,0,6071,0.64,1
+renewable_energy_consumption,Total renewable energy consumption,World Development Indicators,all,NA,0,4188,0.44,1
+electricity_renewable_pct,Percent of electricity from renewable sources,World Development Indicators,all,NA,0,4817,0.51,1
+electricity_renewable_nohydro,"Percent of electricity from renewables, excluding hydroelectric",World Development Indicators,all,NA,0,4817,0.51,1
+renewable_electricity_output,Total renewable electricity output,World Development Indicators,all,NA,0,3988,0.42,1
+electricity_from_oil_pct,Percent of electricity from oil,World Development Indicators,all,NA,0,4817,0.51,1
+electricity_from_nuclear_pct,Percent of electricity from nuclear,World Development Indicators,all,NA,0,4923,0.52,1
+electricity_from_natgas_pct,Percent of electricity from natural gas,World Development Indicators,all,NA,0,4817,0.51,1
+electricity_from_hydro_pct,Percent of electricity from hydorelecxtric,World Development Indicators,all,NA,0,4817,0.51,1
+electricity_from_coal_pct,Percent of electricity from coal,World Development Indicators,all,NA,0,4817,0.51,1
+electricity_access,Access to electricity,World Development Indicators,all,NA,0,4652,0.49,1
+forest_area_pct,Percent of land forested,World Development Indicators,all,NA,0,3991,0.42,1
+forest_area_total,Total forested land,World Development Indicators,all,NA,0,3956,0.42,1
