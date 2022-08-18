@@ -1,4 +1,13 @@
-shoot <- read_csv('https://raw.githubusercontent.com/ameliahg/PSCI232/main/motherjones_mass_shootings.csv') %>%
+# shootings_by_state.R
+# summarize mass shooting data from Mother Jones by state
+
+library(tidyverse)
+
+stopifnot(basename(getwd())=='PSCI232') # check to make sure you're running from the 'PSCI232' dir
+
+# ^ if this fails, what will you do?
+
+shoot <- read_csv('https://raw.githubusercontent.com/ameliahg/PSCI232/main/state-data/motherjones_mass_shootings.csv') %>%
   mutate(yr2=as.numeric(substr(date,nchar(date)-1,nchar(date))),
          year=as.numeric(paste(ifelse(yr2<22,'20','19'),yr2,sep=''))) %>%
   group_by(state) %>%
@@ -13,4 +22,4 @@ shoot <- read_csv('https://raw.githubusercontent.com/ameliahg/PSCI232/main/mothe
          pct_illegal_weapons=(nshootings-legal_weapons-unknown_weapons)/nshootings,
          pct_unknown_weapons=unknown_weapons/nshootings)
 
-write_csv(shoot,'shootings_by_state.csv')
+write_csv(shoot,'output/shootings_by_state.csv')
