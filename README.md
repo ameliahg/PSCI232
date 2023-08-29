@@ -27,5 +27,5 @@ You are welcome to download data directly to your computer, but as we've seen in
 1. From the main PSCI 232 page, click the folder you want and, within the folder, the file you want to use.
 2. Find the button (at the top, toward the right) that says "Raw." Click it! You should see the data --- not in tabular format but in plain text.
 3. Copy the URL of this page.
-4. Paste the URL into your code, as in "< cy <- read_csv("https://raw.githubusercontent.com/ameliahg/PSCI232/main/country-data/country_stats_byyear.csv") >.
+4. Paste the URL into your code, as in `cy <- read_csv("https://raw.githubusercontent.com/ameliahg/PSCI232/main/country-data/country_stats_byyear.csv")`.
 5. As long as you have a wifi connection, you should be good to go.
